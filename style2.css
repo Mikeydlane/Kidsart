@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro {
+	background: url(17311373_1512733122104760_4969097487430216024_o.jpg) no-repeat 50% 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	height: 150px;
+	padding-top: 400px;
+/*	background-color: teal;
+	opacity: 0.5;
+	border-radius: 20%;*/
+
+}
+.content h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 2px 2px 5px #036A81;
+	font-size: 50px;
+
+}
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #fff;
+	border: solid #fff 3px;
+}
+.gallery {
+	background-image: url('20638320_1672027059508698_8891547584865085585_n.jpg');
+	background-position: cover;
+
+}
+.Worldwide {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	height: 150px;
+	padding-top: 50px;
+}
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page-title {
+	font-size: 50px;
+	line-height: 60px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: center;
+	font-size-adjust: 100%;
+	color: #595959;
+	font-family: "AvenirLT-Black";
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+.page-title-sub em {
+	font-family: "martellight";
+	font-size: 13px;
+	text-transform: none;
+	font-style: italic;
+}
+.page-title-sub {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 50px;
+	color: #595959;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
