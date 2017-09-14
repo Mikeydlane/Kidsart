@@ -6,10 +6,13 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	background-color: teal;
+	margin:0;
 }
+
 .intro {
-	background: url(17311373_1512733122104760_4969097487430216024_o.jpg) no-repeat 50% 50%;
-    object-fit: cover;
+	background-image: url("Team.jpg");
+    object-fit: cover: no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -23,8 +26,8 @@ html, body {
 /*	background-color: teal;
 	opacity: 0.5;
 	border-radius: 20%;*/
-
 }
+
 .content h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #F9F3F4;
@@ -42,27 +45,36 @@ html, body {
 	text-transform: uppercase;
 	text-decoration: none;
 }
+
 .btn:hover {
 	color: #fff;
 	border: solid #fff 3px;
 }
-.gallery {
-	background-image: url('20638320_1672027059508698_8891547584865085585_n.jpg');
-	background-position: cover;
-
+.Gallery { 
+	line-height:60px;
+	text-align: center;
+	font-size:60px;
 }
 .Worldwide {
-	max-width: 500px;
-	margin: auto;
-	text-align: center;
-	height: 150px;
-	padding-top: 50px;
+	box-sizing: border-box;
+	font-style: "martellight";
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	font-size-adjust: 100%;
+	margin-left: 1em;
+	margin-right: 1em;
 }
+
 .container {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .page-title {
 	font-size: 50px;
 	line-height: 60px;
@@ -72,23 +84,85 @@ html, body {
 	margin-top: 0px;
 	text-align: center;
 	font-size-adjust: 100%;
-	color: #595959;
+	color: #ffffff;
 	font-family: "AvenirLT-Black";
 	letter-spacing: 1px;
 	font-weight: bolder;
 }
+
 .page-title-sub em {
 	font-family: "martellight";
 	font-size: 13px;
 	text-transform: none;
 	font-style: italic;
 }
+
 .page-title-sub {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 50px;
-	color: #595959;
+	color: #ffffff;
 	letter-spacing: 1px;
 	font-weight: bold;
+}
+footer {
+	width: 100%;
+	height: 80%;
+	background-color: #183951;
+	margin-top: 100px;
+	left: 0;
+
+	
+}
+#foot {
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+h3 {
+	color: #ffffff;
+}
+div.social {
+	float: left;
+	margin-top: 20px;
+}
+a.social {
+	margin-right: 15px;
+}
+
+div.contact {
+	float: right;
+	margin-left: 200px;
+	/*margin-top: 20px;*/
+	margin-bottom: 300px;
+}
+
+label {
+	color: #ffffff;
+}
+
+input.text {
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+textarea.message {
+	height: 100px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+input.submit {
+	height: 60px;
+	width: 30px;
+	background-color: #ffffff;
+	color: #183951;
+	border: none;
+	border-radius: 3px;
+}
+input.submit: hover {
+	text-decoration: underline;
 }
