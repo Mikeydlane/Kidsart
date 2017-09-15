@@ -10,11 +10,11 @@ li {
   /*text-decoration: none!important;*/
   decoration: none;
   display: inline-block;
-  padding: 10px 60px;
+  padding: 2px 60px;
   font-family: helvetica, sans-serif;
   font-weight: lighter;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   cursor: pointer;
 
 }
@@ -30,10 +30,10 @@ li {
   justify-content: space-between;
   align-items: center;
   /*margin-top: 15px;*/
-  height:55px;
+  height:30px;
   /*padding: 5px;*/
   padding-bottom: 5px;
-  padding-top: 65px;
+  padding-top: 20px;
   margin-right: 75px;
   text-decoration: none;
 
@@ -48,24 +48,89 @@ li {
 }
 
 .logo {
-  width: 300px;
+  width: 200px;z
   display: inline-block;
   float: left;
   margin-right: 300px;
 }
 
 .background-img  img {
-  /*margin-top: 175px;*/
+  margin-top: 100px;
   width: 100%;
 
 }
 
+/*.background-img{
+  float: right;
+}*/
+
+
 .bar {
-  width: 100%
+width: 100%;
 }
 
 .block-container {
 width: 100%;
-height: 450px;
+height: 100%;
 background-color: lightblue;
+display: inline-block;
+text-align: center;
+}
+
+.block-container2 {
+width: 100%;
+height: 100%;
+background-color: lightblue;
+display: inline-block;
+text-align: center;
+}
+
+.block-container3 {
+width: 100%;
+height: 100%;
+background-color: lightblue;
+display: inline-block;
+text-align: center;
+}
+
+.block-container img {
+  width: 60%;
+  padding: 10px
+}
+.block-container2 img {
+  width: 60%;
+  padding: 10px
+}
+.block-container3 img {
+  width: 60%;
+  padding: 10px;
+}
+
+.blurb {
+  background-color: lightblue;
+  width: 100%;
+  height: 60px;
+  display: block;
+}
+
+.blurb p {
+  color: white;
+  
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+
+
+
+.block-container img {
+  /*display: inline-block;
+  width: 450px;
+  height: auto;
+  /*flex-flow: row;*/
+  padding: 10px;
+  margin-top: 40px;
 }
