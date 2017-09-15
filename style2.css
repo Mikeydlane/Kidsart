@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+	margin:0;
+}
+
+.facts {
+	background-color: teal;
+}
+
+.intro {
+	background-image: url("Team.jpg");
+  /*object-fit: cover: no-repeat;*/
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.content {
+	/*max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	height: 150px;
+	padding-top: 400px;
+  background-color: teal;
+	opacity: 0.5;
+	border-radius: 20%;*/
+
+  background-color: #ffffff;
+  filter: alpha(opacity=60);
+  text-align: center;
+	background-image: url(img/hands.jpg);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+
+
+
+}
+
+.content h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 2px 2px 5px #036A81;
+	font-size: 50px;
+	margin-bottom: 20px;
+
+
+
+}
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 135%;
+	padding: 10 20px;
+	border: solid #fff 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 400px;
+
+}
+
+.btn:hover {
+	color: #036A81;
+	border: solid #036A81 3px;
+}
+.Gallery {
+	line-height:60px;
+	text-align: center;
+	font-size:60px;
+	background-color: teal;
+}
+.Worldwide {
+
+	font-style: "martellight";
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	font-size-adjust: 100%;
+	margin-left: 5em;
+	margin-right: 5em;
+	background-color: teal;
+
+}
+
+.container-facts {
+	padding-top: 100px;
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: teal;
+}
+
+.page-title {
+	font-size: 50px;
+	line-height: 60px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: center;
+	font-size-adjust: 100%;
+	color: #ffffff;
+	font-family: "AvenirLT-Black";
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+
+.page-title-sub em {
+	font-family: "martellight";
+	font-size: 13px;
+	text-transform: none;
+	font-style: italic;
+}
+
+.page-title-sub {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 50px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+footer {
+	width: 100%;
+	height: 500px;
+	background-color: #183951;
+	margin-top: 100px;
+	left: 0;
+
+
+}
+#foot {
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+h3 {
+	color: #ffffff;
+}
+div.social {
+	float: left;
+	margin-top: 20px;
+}
+a.social {
+	margin-right: 15px;
+}
+
+div.contact {
+	float: right;
+	margin-left: 200px;
+	/*margin-top: 20px;*/
+	margin-bottom: 300px;
+}
+
+label {
+	color: #ffffff;
+}
+
+input.text {
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+textarea.message {
+	height: 100px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+input.submit {
+	height: 60px;
+	width: 70px;
+	background-color: #ffffff;
+	color: #183951;
+	border: none;
+	border-radius: 3px;
+}
+input.submit: hover {
+	text-decoration: underline;
+}
